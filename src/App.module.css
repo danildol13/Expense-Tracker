@@ -1,0 +1,11 @@
+.headBlock {
+  max-width: 680px;
+  margin: 32px auto 0;
+  padding: 0 16px;
+}
+
+.middleBlock{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}

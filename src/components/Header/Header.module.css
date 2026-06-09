@@ -1,0 +1,13 @@
+.head {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.title {
+  color: var(--color-text);
+}
+
+.underTitle{
+    color: var(--color-muted);
+}

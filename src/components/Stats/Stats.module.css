@@ -1,0 +1,32 @@
+.cardList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.cardList li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  height: 70px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background-color: var(--color-surface);
+  font-weight: 700;
+}
+
+.cardList .totalCard {
+  background-color: var(--color-green);
+  border: none;
+  color: var(--color-surface);
+}
+
+.title {
+  font-size: 12px;
+  font-weight: 200;
+  color: var(--color-muted);
+}

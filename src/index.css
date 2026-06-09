@@ -1,0 +1,69 @@
+/* ─── Variables ─────────────────────────────────────────── */
+:root {
+  /* Colors */
+  --color-bg: #f0ede8;
+  --color-surface: #ffffff;
+  --color-green: #2d5a27;
+  --color-green-light: #ddf0d7;
+  --color-text: #1a1a1a;
+  --color-muted: #888888;
+  --color-border: #d3d1cc;
+
+  /* Typography */
+  --font: 'Inter', sans-serif;
+  --font-size-base: 16px;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+}
+
+/* ─── Reset ─────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font);
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font: inherit;
+}
+
+input,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
